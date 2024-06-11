@@ -1,1 +1,1 @@
-# PHYS-15CL-Project
+# Inverted Pendulum
