@@ -12,7 +12,7 @@ Assembely of the system is as follows:
 
 <ol>
   <li>Order the neccisary parts</li>
-  <li>Print the final version 3D Modelsli>
+  <li>Print the final version 3D Models</li>
   <li>Construct the base rail system</li>
   <li>Attach the 3D printed parts to the moving cart and for the endstop switches</li>
   <li>Attach encoder, ball bearings and pendulum rod to the cart</li>
