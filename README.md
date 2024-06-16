@@ -1,5 +1,5 @@
 # Inverted Pendulum
 
-This GitHub directory outlines the project that Eliott Schaffer, Jeremey Lauro, and Cameron Huse worked on for PHYS 15C in the Spring Quarter of 2024 at UCSB. 
+This GitHub directory outlines the project that Eliott Schaffer, Jeremy Lauro, and Cameron Huse worked on for PHYS 15C at UCSB in the Spring Quarter of 2024. 
 
-Within each folder, a different aspect of the project is described, and files significant to that part of the project are attached.
+Each folder describes a different aspect of the project, and files significant to that part are contained along with specific documentation.
