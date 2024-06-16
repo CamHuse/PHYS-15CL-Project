@@ -1,7 +1,6 @@
 ## Files
 
 - `PIDPendulumControl.ino`: Implementation of PID control for the inverted pendulum.
-- `LQRPendulumControl.ino`: Implementation of LQR control for the inverted pendulum.
 - `README.md`: Documentation file.
   
 ## PID Control
