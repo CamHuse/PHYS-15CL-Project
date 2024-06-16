@@ -18,5 +18,5 @@ Where:
 - $K_p$ is the proportional gain.
 - $K_i$ is the integral gain.
 - $K_d$ is the derivative gain.
-
-The code showcases the ideal parameters to control the inverted pendulum for our specific system.
+  
+Note: The parameters \( K_p \), \( K_i \), \( K_d \) defined in `PIDPendulumControl.ino` are specific to our cart-pendulum system with a pendulum mass and weight particular to our system, so they may not be directly applicable to other systems without retuning. Adjust these parameters based on your specific system's dynamics to achieve optimal control performance.
