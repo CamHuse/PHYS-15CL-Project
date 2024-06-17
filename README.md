@@ -47,19 +47,22 @@ Limit switches are installed to detect the center of the rail and prevent the ca
 
 The stepper motor drives the cart along the rail. We control the motor by continuously sending a PWM signal to specify its desired speed. It is connected to the cart through a pulley system and powered by a 24V DC supply, with control signals provided by the Arduino.
 
-#### ADD PHOTO OF STEPPER MOTOR
+![image](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/eb9cd1d7-4ab0-415f-b178-9a754a843965)
+
 
 ---
 
 ## Swing-Up Phase
 The swing-up logic aims to align the pendulum upright relative to its zero point, directly downward. When the pendulum is to the right of the zero point (positive angle), the system directs the cart right, applying torque to increase the pendulum's kinetic energy. Conversely, when the pendulum is to the left of the zero point (negative angle), the system directs the cart left. This repeated motion helps the pendulum swing back and forth, gradually reaching a vertical position while keeping the cart within the rail's limits. Below is a plot of the pendulum's angle overtime during the swing-up phase.
 
-#### ADD SWING UP PLOT
+![image](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/bf2c2cec-e89e-4672-8078-217197c553b9)
+
 
 --
 ## Control System
 
-#### INSERT CONTROL THEORY PHOTO FROM SLIDES
+![image](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/4d34027d-10ce-41b5-84c3-9f9a2c5c24f5)
+
 
 ### Sensors
 
@@ -76,6 +79,15 @@ The controller processes the data received from the sensors and determines the a
 ### Actuators
 
 Actuators are devices the system's controller controls to guide the system into the desired state. The only actuator utilized in this system is the stepper motor.
+
+
+## Notes For Future Builders
+
+Instead of getting a Nema17 Stepper motor kit, opt for a Nema23 kit. We were having over-torquing problems. 
+
+Steel rotary shafts are hard to use and get a ball bearing on, and it is much easier to add threads to an aluminum rod and file it. 
+
+Going with a DC motor design is more conventional and will allow for more direct torque control compared to a stepper motor.
 
 --
 
