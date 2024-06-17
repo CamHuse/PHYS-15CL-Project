@@ -59,7 +59,7 @@ The swing-up logic aims to align the pendulum upright relative to its zero point
 --
 ## Control System
 
-## INSERT CONTROL THEORY PHOTO FROM SLIDES
+#### INSERT CONTROL THEORY PHOTO FROM SLIDES
 
 ### Sensors
 
@@ -69,11 +69,11 @@ The sensors used in this control system are responsible for gathering input data
 - End-Stop Switches
 - Computer Interface
 
-## Controller
+### Controller
 
 The controller processes the data received from the sensors and determines the appropriate actions to achieve the desired system behavior or state. This project utilized a PID controller. For a detailed explanation, see the control code folder in our repository.
 
-## Actuators
+### Actuators
 
 Actuators are devices the system's controller controls to guide the system into the desired state. The only actuator utilized in this system is the stepper motor.
 
