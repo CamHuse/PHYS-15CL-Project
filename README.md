@@ -18,13 +18,35 @@ Each folder contains different aspects of the project, including significant fil
 8. Wire the 24V DC supply to the stepper motor controller and connect the 4 stepper wires.
 9. Run the Arduino Mega.
 
-## Photos:
+## Components
 
 ![Inverted Pendulum System](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/1e16125e-8c55-4714-bb09-f05380a21956)
 
-![Assembled System](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/99ed8eb7-9d0d-42f3-a88f-b60115288a73)
+### Cart
+
+The cart consists of a base plate that holds the wheels connected to the rail and two 3D-printed pieces that serve as the base for the pendulum. It moves along a rail and supports the encoder and pendulum. The cart's design ensures precise movement and stability during operation.
+
+### Pendulum
+
+The pendulum is mounted on the cart and connected to the rotary shaft via a T-bracket. It swings freely, and its horizontal shaft is connected to the encoder, allowing us to read the pendulum's position at any moment in time.
+
+### Encoder
+
+The encoder, situated on the cart, measures the pendulum's angular position and velocity. It communicates with the Arduino via SPI (Serial Peripheral Interface), providing real-time positional data for system control and analysis.
 
 ![System Close-Up](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/9937ebd7-ea1f-4e75-8cee-4a59cdf297e4)
+
+### Limit Switches
+
+Limit switches are installed to detect the center of the rail and prevent the cart from exceeding the rail boundaries. These switches are electrically connected to the Arduino via interpret pins, allowing us to immediately stop the motor if the cart drifts too far either way.
+
+![Assembled System](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/99ed8eb7-9d0d-42f3-a88f-b60115288a73)
+
+
+### Stepper Motor
+
+The stepper motor drives the cart along the rail. We control the motor by continuously sending a PWM signal to specify its desired speed. It is connected to the cart through a pulley system and powered by a 24V DC supply, with control signals provided by the Arduino.
+
 
 ---
 
