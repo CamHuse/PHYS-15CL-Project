@@ -1,31 +1,31 @@
 # Inverted Pendulum
 
-This GitHub directory outlines the project that Eliott Schaffer, Jeremy Lauro, and Cameron Huse worked on for PHYS 15C at UCSB in the Spring Quarter of 2024. 
+This GitHub repository documents the project completed by Eliott Schaffer, Jeremy Lauro, and Cameron Huse for PHYS 15C at UCSB during the Spring Quarter of 2024.
 
-Each folder describes a different aspect of the project, and files significant to that part are contained along with specific documentation.
+Each folder contains different aspects of the project, including significant files and specific documentation.
 
-Link to the presentation with photos of the system and video demonstrations
-[Link to Presentation](https://docs.google.com/presentation/d/1EEgrXbiuC8zDKRkNd1JOHVO5JtM1_9yI2Myhj0fMQJY/edit?usp=sharing)
+[Link to Presentation with Photos and Video Demonstrations](https://docs.google.com/presentation/d/1EEgrXbiuC8zDKRkNd1JOHVO5JtM1_9yI2Myhj0fMQJY/edit?usp=sharing)
 
+## Assembly Instructions:
 
-Assembely of the system is as follows:
+1. Order the necessary parts.
+2. Print the final version of the 3D models.
+3. Construct the base rail system.
+4. Attach the 3D printed parts to the moving cart and install the endstop switches.
+5. Attach the encoder, ball bearings, and pendulum rod to the cart.
+6. Wire the encoder and endstop switches to the Arduino as described in the code.
+7. Wire the stepper motor controller to the Arduino as described in the code.
+8. Wire the 24V DC supply to the stepper motor controller and connect the 4 stepper wires.
+9. Run the Arduino Mega.
 
-<ol>
-  <li>Order the neccisary parts</li>
-  <li>Print the final version 3D Models</li>
-  <li>Construct the base rail system</li>
-  <li>Attach the 3D printed parts to the moving cart and for the endstop switches</li>
-  <li>Attach encoder, ball bearings and pendulum rod to the cart</li>
-  <li>Wire encoder and endstop switches to aurdino as described in the code</li>
-  <li>Wire stepper motor controller to arduino as described in the code</li>
-  <li>Wire 24V DC supply to stepper motor controller and the 4 stepper wires</li>
-  <li>Run the Arduino Mega</li>
-</ol>
+## Photos:
 
-Photos:
+![Inverted Pendulum System](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/1e16125e-8c55-4714-bb09-f05380a21956)
 
-![image](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/1e16125e-8c55-4714-bb09-f05380a21956)
+![Assembled System](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/99ed8eb7-9d0d-42f3-a88f-b60115288a73)
 
-![image](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/99ed8eb7-9d0d-42f3-a88f-b60115288a73)
+![System Close-Up](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/9937ebd7-ea1f-4e75-8cee-4a59cdf297e4)
 
-![image](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/9937ebd7-ea1f-4e75-8cee-4a59cdf297e4)
+---
+
+Feel free to explore the repository and refer to the provided documentation for more details on each part of the project.
