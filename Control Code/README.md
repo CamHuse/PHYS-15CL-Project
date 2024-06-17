@@ -5,7 +5,7 @@
   
 ## PID Control
 
-Proportional-Integral-Derivative (PID) control is a feedback mechanism widely used in control systems. It calculates an error value as the difference between a desired setpoint and a measured process variable. The controller attempts to minimize the error by adjusting the process using three terms: proportional $(K_p)$, integral $(K_i)$, and derivative $(K_d)$.
+Proportional-Integral-Derivative (PID) control is a feedback mechanism widely used in control systems. It calculates an error value as the difference between a desired setpoint and a measured variable. In our case, the measured variable is the angle of the pendulum provided by the absolute encoder, and the desired setpoint is 180 degrees from vertically down. The controller attempts to minimize the error by adjusting the process using three terms: proportional $(K_p)$, integral $(K_i)$, and derivative $(K_d)$.
 
 ### PID Control Implementation 
 
