@@ -52,12 +52,30 @@ The stepper motor drives the cart along the rail. We control the motor by contin
 ---
 
 ## Swing-Up Phase
-The swing-up logic aims to align the pendulum upright relative to its zero point, directly downward. When the pendulum is to the right of the zero point (positive angle), the system directs the cart right, applying torque to increase the pendulum's kinetic energy. Conversely, when the pendulum is to the left of the zero point (negative angle), the system directs the cart left. This repeated motion helps the pendulum swing back and forth, gradually reaching a vertical position while keeping the cart within the rail's limits. Below is a plot of the pendulum's angle over time during the swing-up phase.
+The swing-up logic aims to align the pendulum upright relative to its zero point, directly downward. When the pendulum is to the right of the zero point (positive angle), the system directs the cart right, applying torque to increase the pendulum's kinetic energy. Conversely, when the pendulum is to the left of the zero point (negative angle), the system directs the cart left. This repeated motion helps the pendulum swing back and forth, gradually reaching a vertical position while keeping the cart within the rail's limits. Below is a plot of the pendulum's angle overtime during the swing-up phase.
 
 #### ADD SWING UP PLOT
 
 --
+## Control System
 
+## INSERT CONTROL THEORY PHOTO FROM SLIDES
 
+### Sensors
 
+The sensors used in this control system are responsible for gathering input data from the environment. They provide crucial information that the controller utilizes to make decisions and adjustments. The sensors included are:
+
+- Absolute Encoder
+- End-Stop Switches
+- Computer Interface
+
+## Controller
+
+The controller processes the data received from the sensors and determines the appropriate actions to achieve the desired system behavior or state. This project utilized a PID controller. For a detailed explanation, see the control code folder in our repository.
+
+## Actuators
+
+Actuators are devices the system's controller controls to guide the system into the desired state. The only actuator utilized in this system is the stepper motor.
+
+--
 Feel free to explore the repository and refer to the provided documentation for more details on each part of the project.
