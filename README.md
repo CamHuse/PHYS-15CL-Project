@@ -6,6 +6,11 @@ Each folder contains different aspects of the project, including significant fil
 
 [Link to Presentation with Photos and Video Demonstrations](https://docs.google.com/presentation/d/1EEgrXbiuC8zDKRkNd1JOHVO5JtM1_9yI2Myhj0fMQJY/edit?usp=sharing)
 
+## Schematic
+![image](https://github.com/CamHuse/PHYS-15CL-Project/assets/92275246/bee15744-03b7-4abc-a4e2-6d9ec83b519f)
+A full quality version is also [avaliabe](https://github.com/CamHuse/PHYS-15CL-Project/blob/d5d5c650847254214024270f439a0aa117e3549a/Control%20Code/IntervedPendulum_SCH.pdf)
+
+
 ## Assembly Instructions:
 
 1. Order the necessary parts.
@@ -13,8 +18,8 @@ Each folder contains different aspects of the project, including significant fil
 3. Construct the base rail system.
 4. Attach the 3D printed parts to the moving cart and install the endstop switches.
 5. Attach the encoder, ball bearings, and pendulum rod to the cart.
-6. Wire the encoder and endstop switches to the Arduino as described in the code.
-7. Wire the stepper motor controller to the Arduino as described in the code.
+6. Wire the encoder and endstop switches to the Arduino as described in the schematic.
+7. Wire the stepper motor controller to the Arduino as described in the schematic.
 8. Wire the 24V DC supply to the stepper motor controller and connect the 4 stepper wires.
 9. Run the Arduino Mega.
 
@@ -88,6 +93,8 @@ Instead of getting a Nema17 Stepper motor kit, opt for a Nema23 kit. We were hav
 Steel rotary shafts are hard to use and get a ball bearing on, and it is much easier to add threads to an aluminum rod and file it. 
 
 Going with a DC motor design is more conventional and will allow for more direct torque control compared to a stepper motor.
+
+If going for a stepper motor design, MATLAB and Raspberry Pis are too slow to count the steps of the stepper motor, a different design philosophy or extra distance sensor must be used.
 
 --
 
