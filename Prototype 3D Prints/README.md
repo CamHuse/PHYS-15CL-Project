@@ -10,7 +10,7 @@ This repository contains 3D models representing prototype designs and rough tech
 - Switch Bracket Version 2
 - T-Bracket Design
 
-## Technical Sketches
+## Rough Sketches
 
 - Hub
 - Hub Drawing
