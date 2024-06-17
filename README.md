@@ -47,7 +47,17 @@ Limit switches are installed to detect the center of the rail and prevent the ca
 
 The stepper motor drives the cart along the rail. We control the motor by continuously sending a PWM signal to specify its desired speed. It is connected to the cart through a pulley system and powered by a 24V DC supply, with control signals provided by the Arduino.
 
+#### ADD PHOTO OF STEPPER MOTOR
 
 ---
+
+## Swing-Up Phase
+The swing-up logic aims to align the pendulum upright relative to its zero point, directly downward. When the pendulum is to the right of the zero point (positive angle), the system directs the cart right, applying torque to increase the pendulum's kinetic energy. Conversely, when the pendulum is to the left of the zero point (negative angle), the system directs the cart left. This repeated motion helps the pendulum swing back and forth, gradually reaching a vertical position while keeping the cart within the rail's limits. Below is a plot of the pendulum's angle over time during the swing-up phase.
+
+#### ADD SWING UP PLOT
+
+--
+
+
 
 Feel free to explore the repository and refer to the provided documentation for more details on each part of the project.
