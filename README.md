@@ -78,4 +78,5 @@ The controller processes the data received from the sensors and determines the a
 Actuators are devices the system's controller controls to guide the system into the desired state. The only actuator utilized in this system is the stepper motor.
 
 --
+
 Feel free to explore the repository and refer to the provided documentation for more details on each part of the project.
